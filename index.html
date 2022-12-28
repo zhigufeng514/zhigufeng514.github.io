@@ -67,7 +67,7 @@
     <article id="post-linux" class="article article-type-post" itemscope itemprop="blogPost">
   <div class="article-meta">
     <a href="/2022/12/28/linux/" class="article-date">
-  <time datetime="2022-12-28T08:19:13.000Z" itemprop="datePublished">2022-12-28</time>
+  <time datetime="2022-12-28T08:39:11.000Z" itemprop="datePublished">2022-12-28</time>
 </a>
     
   </div>
@@ -78,7 +78,7 @@
         
   
     <h1 itemprop="name">
-      <a class="article-title" href="/2022/12/28/linux/">linux</a>
+      <a class="article-title" href="/2022/12/28/linux/">linux大作业</a>
     </h1>
   
 
@@ -86,11 +86,59 @@
     
     <div class="article-entry" itemprop="articleBody">
       
-        
+        <h2 id="安装git，使用git管理大作业相关的代码、配置文件等"><a href="#安装git，使用git管理大作业相关的代码、配置文件等" class="headerlink" title="安装git，使用git管理大作业相关的代码、配置文件等"></a>安装git，使用git管理大作业相关的代码、配置文件等</h2><pre><code>![ ](1.png)
+</code></pre>
+<h2 id="在Linux下，运行系统监控，查看常见的系统资源占用例如CPU、内存、网络、硬盘IO等等"><a href="#在Linux下，运行系统监控，查看常见的系统资源占用例如CPU、内存、网络、硬盘IO等等" class="headerlink" title="在Linux下，运行系统监控，查看常见的系统资源占用例如CPU、内存、网络、硬盘IO等等"></a>在Linux下，运行系统监控，查看常见的系统资源占用例如CPU、内存、网络、硬盘IO等等</h2><ol>
+<li><p>查看cpu等资源占用</p>
+<p> <img src="/2022/12/28/linux/2.png" alt=" "></p>
+</li>
+<li><p>内存监控</p>
+<p> <img src="/2022/12/28/linux/3.png" alt=" "></p>
+</li>
+<li><p>查看磁盘容量</p>
+<pre><code> df
+ df -h
+</code></pre>
+</li>
+<li><p>查看硬盘分区表信息</p>
+<pre><code> sudo fdisk -l
+</code></pre>
+</li>
+<li><p>磁盘io监控</p>
+<pre><code> iostat
+ iostat -x -k 1
+</code></pre>
+</li>
+<li><p>网络监控</p>
+<pre><code> nettat
+</code></pre>
+</li>
+<li><p>综合监控</p>
+<pre><code> vmstat
+</code></pre>
+</li>
+</ol>
+<h2 id="将hexo部署到github上"><a href="#将hexo部署到github上" class="headerlink" title="将hexo部署到github上"></a>将hexo部署到github上</h2><ol>
+<li><p>创建github仓库</p>
+<p> <img src="/2022/12/28/linux/4.png" alt=" "></p>
+</li>
+<li><p>配置hexo</p>
+<p> <img src="/2022/12/28/linux/5.png" alt=" "></p>
+</li>
+<li><p>运行hexo服务</p>
+<pre><code> hexo clean
+ hexo g
+ hexo d
+ hexo serve
+</code></pre>
+</li>
+</ol>
+<p>访问zhigufeng514.github.io</p>
+
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://example.com/2022/12/28/linux/" data-id="clc7dzwvr00027ewzfpd39kwn" class="article-share-link">Share</a>
+      <a data-url="http://example.com/2022/12/28/linux/" data-id="clc7mvdf20002w8wz7jc40nsm" class="article-share-link">Share</a>
       
       
     </footer>
@@ -129,7 +177,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://example.com/2022/12/26/hexo%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/" data-id="clc7dzwvn00017ewza8sm3uqw" class="article-share-link">Share</a>
+      <a data-url="http://example.com/2022/12/26/hexo%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/" data-id="clc7mvdez0001w8wz2igd5b6s" class="article-share-link">Share</a>
       
       
     </footer>
@@ -348,7 +396,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://example.com/2022/12/26/linux%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/" data-id="clc7dzwwa00037ewzaohef5ej" class="article-share-link">Share</a>
+      <a data-url="http://example.com/2022/12/26/linux%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/" data-id="clc7mvdf30003w8wz5cpwhtyu" class="article-share-link">Share</a>
       
       
     </footer>
@@ -397,7 +445,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://example.com/2022/12/22/hello-world/" data-id="clc7dzwvd00007ewz3xba7ngu" class="article-share-link">Share</a>
+      <a data-url="http://example.com/2022/12/22/hello-world/" data-id="clc7mvdes0000w8wz7f0ocw6g" class="article-share-link">Share</a>
       
       
     </footer>
@@ -438,7 +486,7 @@
       <ul>
         
           <li>
-            <a href="/2022/12/28/linux/">linux</a>
+            <a href="/2022/12/28/linux/">linux大作业</a>
           </li>
         
           <li>
